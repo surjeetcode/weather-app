@@ -29,22 +29,22 @@ const getWeather= async(city)=>
         climate.textContent=main
         tempvalue.textContent=Math.round(feels_like-273)
         if(id<300 && id>200){
-            tempicon.src ="./icons/strom.svg"
+            tempicon.src ="strom.svg"
         }
         else if(id<400 && id>300){
-           tempicon.src ="./icons/cloud.svg"
+           tempicon.src ="cloud.svg"
        } 
        else if(id<600 && id>500){
-           tempicon.src ="./icons/rain.svg"
+           tempicon.src ="rain.svg"
        } 
        else if(id<700 && id>600){
-           tempicon.src ="./icons/snowflake.svg"
+           tempicon.src ="snowflake.svg"
        }
        else if(id<800 && id>700){
-           tempicon.src ="./icons/cloud.svg"
+           tempicon.src ="cloud.svg"
        }
       else if(id==800){
-           tempicon.src ="./icons/atmosphere.svg"
+           tempicon.src ="atmosphere.svg"
        }
 
 
@@ -82,22 +82,22 @@ window.addEventListener("load" , () => {
                      climate.textContent=main;
                      tempvalue.textContent=Math.round(feels_like-273)
                      if(id<300 && id>200){
-                         tempicon.src ="./icons/strom.svg"
+                         tempicon.src ="strom.svg"
                      }
                      else if(id<400 && id>300){
-                        tempicon.src ="./icons/cloud.svg"
+                        tempicon.src ="cloud.svg"
                     } 
                     else if(id<600 && id>500){
-                        tempicon.src ="./icons/rain.svg"
+                        tempicon.src ="rain.svg"
                     } 
                     else if(id<700 && id>600){
-                        tempicon.src ="./icons/snowflake.svg"
+                        tempicon.src ="snowflake.svg"
                     }
                     else if(id<800 && id>700){
-                        tempicon.src ="./icons/cloud.svg"
+                        tempicon.src ="cloud.svg"
                     }
                    else if(id==800){
-                        tempicon.src ="./icons/atmosphere.svg"
+                        tempicon.src ="atmosphere.svg"
                     }
             }
             )
